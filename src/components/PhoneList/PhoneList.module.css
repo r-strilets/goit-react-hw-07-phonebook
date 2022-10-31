@@ -14,9 +14,13 @@
 .btnDelete {
   border: transparent;
   border-radius: 5px;
-  outline: 1px solid black;
-
-  color: darkorchid;
+  cursor: pointer;
+  padding: 5px;
+}
+.btnDelete:hover,
+.btnDelete:active {
+  background-color: blue;
+  color: #fff;
 }
 
 .loader {
